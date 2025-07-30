@@ -63,7 +63,6 @@ Once you've completed the setup, run the Streamlit application from your termina
 ```bash
 streamlit app.py
 ```
-The application will launch in your default web browser (typically at `http://localhost:8501`). You can then interact with the sliders in the sidebar to adjust various parameters and observe the real-time predictions and visualizations.
 -----
 ## Future Improvements
 
