@@ -36,25 +36,20 @@ To get this project running on your local machine, follow these steps:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/YourGitHubUsername/optimal-ev-retrofitting-predictor.git
-    cd optimal-ev-retrofitting-predictor
+    git clone https://github.com/kritin04/EV-retrofitting
+    cd EV-retrofitting
     ```
-
-    *(**Note:** Remember to replace `https://github.com/YourGitHubUsername/optimal-ev-retrofitting-predictor.git` with the actual URL of your GitHub repository.)*
-
 2.  **Create a Virtual Environment (Recommended):**
 
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
-
 3.  **Install Dependencies:**
 
     ```bash
     pip install pandas numpy scikit-learn matplotlib streamlit
     ```
-
 4.  **Data Requirement:**
 
       * This project expects a `driving_data.csv` file. Currently, the `load_data` function points to a local path (`C:\Users\Kritin\Downloads\driving_data.csv`).
@@ -64,19 +59,12 @@ To get this project running on your local machine, follow these steps:
 -----
 
 ## Usage
-
 Once you've completed the setup, run the Streamlit application from your terminal:
-
 ```bash
-streamlit run your_main_script_name.py
+streamlit app.py
 ```
-
-*(**Note:** Replace `your_main_script_name.py` with the actual name of your Python file containing the `main()` function, e.g., `app.py` or `main.py`).*
-
 The application will launch in your default web browser (typically at `http://localhost:8501`). You can then interact with the sliders in the sidebar to adjust various parameters and observe the real-time predictions and visualizations.
-
 -----
-
 ## Future Improvements
 
   * **User Data Upload:** Implement a feature allowing users to upload their own `driving_data.csv` files directly through the Streamlit interface for personalized analysis.
@@ -84,15 +72,5 @@ The application will launch in your default web browser (typically at `http://lo
   * **Advanced ML Models:** Explore and implement more sophisticated time-series models or deep learning approaches for even greater predictive power.
   * **Comparative Analysis:** Develop functionality for users to compare different retrofitting scenarios or vehicle types side-by-side.
   * **Detailed ROI Breakdown:** Provide more granular financial reports and interactive visualizations of payback periods and long-term Return on Investment (ROI).
-
------
-
-## Contact
-
-For any questions or collaborations, feel free to reach out:
-
-  * **[Your Name/GitHub Username]**
-  * **[Your Email Address (Optional)]**
-  * **[Link to your LinkedIn Profile (Optional)]**
 
 -----
